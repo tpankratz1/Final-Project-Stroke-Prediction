@@ -18,5 +18,6 @@ To what extent do factors, such as gender, age, various diseases, smoking status
 ### Communication protocol
 The team is communicating regularly via the following tools:
 - Slack channel
-- Daily touchpoints at 8:30 pm CST
+- Tuesday & Thursday class times, 7 pm CST
+- Daily touchpoints, 8:30 pm CST
 
