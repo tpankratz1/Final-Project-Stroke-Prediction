@@ -1,7 +1,7 @@
 # Final Project: Stroke Prediction
 
 ### Selected topic
-Predicting the likelyhood of a stroke event, based on input parameters such as gender, age, various diseases, smoking status, etc.
+Predicting the likelyhood of a stroke event, based on up to 11 input parameters such as gender, age, various diseases, smoking status, etc.
 
 ### Reasons for selecting topic
 All four team members work in health care at Mayo Clinic. Also, several team members have family members who have had strokes, including a grandfather and a father, so the topic is a bit personal as well.
@@ -13,7 +13,7 @@ All four team members work in health care at Mayo Clinic. Also, several team mem
 - https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 ### Questions hoped to get answered
-How do factors, such as gender, age, various diseases, smoking status, etc., affect the likelyhood of a person having a stroke?
+To what extent do factors, such as gender, age, various diseases, smoking status, etc., predict the likelyhood of a person having a stroke?
 
 ### Communication protocol
 The team is communicating regularly via the following tools:
