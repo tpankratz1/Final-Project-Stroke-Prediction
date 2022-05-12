@@ -15,6 +15,12 @@ All four team members work in health care at Mayo Clinic. Also, several team mem
 ### Questions hoped to get answered
 To what extent do factors, such as gender, age, various diseases, smoking status, etc., predict the likelyhood of a person having a stroke?
 
+### Team members
+- Janice Courtois
+- Alex Norgren
+- Tom Pankratz
+- Rachel Rautenberg
+
 ### Communication protocol
 The team is communicating regularly via the following tools:
 - Slack channel
@@ -31,8 +37,8 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 PostgreSQL is the database we intend to use, connected to AWS.
 
 ### Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. [Extra ML verbiage will be added here].
 
 ### Dashboard
-In addition to using a Flask template for user input via a web form, we will also integrate D3.js for a fully functioning and interactive dashboard displayed on a web page. It will be hosted on [Heroku?].
+In addition to using a Flask template for user input via a web form (likely hosted on Heroku), we will also either integrate D3.js or use Tableau for a fully functioning and interactive dashboard displayed on a web page.
 
