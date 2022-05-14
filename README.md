@@ -81,14 +81,14 @@ See above
         ![Original attempt](Resources/updated_ML_to_Database.PNG)
 
     - It outputs labels for input data
-        - See Python file: https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/Final_Project_ML_Draft.ipynb)
+        - See draft Python file: https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/Final_Project_ML_Draft.ipynb)
 
 ### Database
 
 - A provisional database has been created (PostgreSQL)
     - Sample data has been added
 
-        ![Original attempt](Resources/database table1 mockup.jpg)
+        ![Original attempt](Resources/database_table1_mockup.jpg)
 
     - A draft machine module is connected to the provisional database
 
