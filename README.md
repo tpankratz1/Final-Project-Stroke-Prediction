@@ -29,7 +29,7 @@ Social-related factors:
 ### Reasons for selecting topic
 All four team members work in health care at Mayo Clinic, so there was a desire to answer questions related to our industry. Also, several team members have family members who have had strokes, including a grandfather and a father, so the topic is personal as well and any insights gleaned will be helpful to better understand various factors that could lead to a stroke.
 
-### Source data
+### Source data:
 
 - Stroke Mortality Data Among US Adults (35+) by State/Territory and County (2018)
     - Data.gov
@@ -41,10 +41,10 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
     - Publisher: University of Wisconsin Population Health Institute (Program: County Health Rankings & Roadmaps (CHR&R))
     - https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2019
 
-### Questions hoped to get answered
+### Questions hoped to get answered:
 To what extent do factors listed above correlate to higher stroke mortality rates? What differences can be uncovered by region, state and county?
 
-## Technologies Used
+## Technologies Used:
 
 ### Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
