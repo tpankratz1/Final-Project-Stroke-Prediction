@@ -1,4 +1,4 @@
-# Stroke Prediction — Final Project
+# Stroke Prediction — Final Project:
 
 ### Team members
 - Janice Courtois
