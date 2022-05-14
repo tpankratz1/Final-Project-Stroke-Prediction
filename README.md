@@ -60,6 +60,9 @@ We intend to either integrate D3.js or use Tableau for a fully functioning and i
 
 ## Segment 1 deliverables
 
+### Summary
+The team pivoted mid-week to change the approach to the project, including the sources for our data, and increase the amount of data we plan to run through a machine learning model. The "plumbing" has been set up with Python, PostgreSQL and AWS, and now the work begins to clean the data, merge and create final tables in the database, and then continue to test the machine learning model(s).
+
 ### Presentation
 See above
 
