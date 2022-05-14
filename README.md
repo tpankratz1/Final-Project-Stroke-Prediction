@@ -1,6 +1,6 @@
-# Stroke Prediction — Final Project:
+# Stroke Prediction — Final Project
 
-### Team members
+### Team members:
 - Janice Courtois
 - Alex Norgren
 - Tom Pankratz
