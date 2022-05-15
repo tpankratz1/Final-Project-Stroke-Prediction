@@ -6,7 +6,7 @@
 - Tom Pankratz
 - Rachel Rautenberg
 
-### Selected topic:
+### Selected topic
 The goal of this project is to predict which factors may correlate (and possibly contribute) to higher stroke mortality rates within the United States, looking at any variances by region, state and county. Potential factors which we'll be exploring include:
 
 Health-related factors:
@@ -58,7 +58,7 @@ SciKitLearn is the ML library we'll be using to create a classifier. Our trainin
 ### Dashboard
 We intend to either integrate D3.js or use Tableau for a fully functioning and interactive dashboard displayed on a web page, highlighting results from the data and machine learning exercises. We also plan to include an interactive web form to gather user input to run through our machine learning module, using Flask and likely hosted on Heroku (still to be determined).
 
-## Segment 1 deliverables
+## Segment 1 Deliverables
 
 ### Summary
 The team pivoted mid-week to change the approach to the project, including the sources for our data, and increase the amount of data we plan to run through a machine learning model. The "plumbing" has been set up with Python, PostgreSQL and AWS, and now the work begins to clean the data, merge and create final tables in the database, and then continue to test the machine learning model(s).
