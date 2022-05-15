@@ -78,7 +78,7 @@ See above
 
 ### Machine Learning Model
 
-- A provisional machine learning model has been created (see very preliminary .ipynb draft file in respository)
+- A provisional machine learning model has been created (see very preliminary .ipynb draft file in GitHub repository)
     - It takes in data from the provisional database (PostgreSQL)
     - It outputs labels for input data
 
