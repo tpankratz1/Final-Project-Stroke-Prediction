@@ -7,7 +7,7 @@
 - Rachel Rautenberg
 
 ### Selected topic
-The goal of this project is to predict which factors may correlate (and possibly contribute) to higher stroke mortality rates within the United States, looking at any variances by region, state and county. Potential factors which we'll be exploring include:
+The goal of this project is to predict which factors may correlate (and possibly contribute) to higher stroke mortality rates within the United States, looking at any variances by region, state and county. Factors which we'll be exploring and training and testing through a machine learning model include:
 
 Health-related factors:
 - Smoking
@@ -91,7 +91,7 @@ See above
 
         ![Original attempt](Resources/database_table1_mockup.jpg)
 
-    - A draft machine learning module is connected to the provisional database (see screenshot above)
+    - A draft machine learning module is connected to the provisional database (see screenshot above within "Machine Learning Model" section)
 
 
 
