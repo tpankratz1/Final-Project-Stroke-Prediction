@@ -80,11 +80,9 @@ See above
 
 - A provisional machine learning model has been created
     - It takes in data from the provisional database (PostgreSQL)
+    - It outputs labels for input data
 
         ![Original attempt](Resources/updated_ML_to_Database.PNG)
-
-    - It outputs labels for input data
-        - See draft Python file: https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/Final_Project_ML_Draft.ipynb)
 
 ### Database
 
@@ -93,9 +91,7 @@ See above
 
         ![Original attempt](Resources/database_table1_mockup.jpg)
 
-    - A draft machine module is connected to the provisional database
-
-        ![Original attempt](Resources/updated_ML_to_Database.PNG)
+    - A draft machine learning module is connected to the provisional database (see screenshot above)
 
 
 
