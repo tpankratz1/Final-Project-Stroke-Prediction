@@ -58,7 +58,64 @@ SciKitLearn is the ML library we'll be using to create a classifier. Our trainin
 ### Dashboard
 We intend to either integrate D3.js or use Tableau for a fully functioning and interactive dashboard displayed on a web page, highlighting results from the data and machine learning exercises. We also plan to include an interactive web form to gather user input to run through our machine learning module, using Flask and likely hosted on Heroku (still to be determined).
 
-## Segment 1 Deliverables
+## Segment 2 Deliverables (May 29)
+
+### Presentation
+
+- Content
+  - The presentation outlines the project, including the following:
+  - Selected topic
+  - Reason topic was selected
+  - Description of the source of data
+  - Questions the team hopes to answer with the data
+  - Description of the data exploration phase of the project
+  - Description of the analysis phase of the project
+
+- Slides
+  - Presentations are drafted in Google Slides.
+
+
+### GitHub Repository
+
+- Main Branch
+  - All code in the main branch is production-ready. The main branch should include:
+    - All code necessary to perform exploratory analysis
+    - Some code necessary to complete the machine learning portion of project
+
+- README.md
+  - README.md should include:
+    - Description of the communication protocols
+    - Outline of the project (this may include images, but they should be easy to follow and digest)
+
+- Individual Branches
+  - Requirements for the individual branches follow:
+    - At least one branch for each team member
+    - Each team member has at least four commits for the duration of the second segment (eight total commits per person)
+
+### Machine Learning Model
+  - The team members are expected to submit the code for the machine learning model, as well as the following:
+    - Description of preliminary data preprocessing
+    - Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+    - Description of how data was split into training and testing sets
+    - Explanation of model choice, including limitations and benefits
+
+### Database Integration
+  - The team members are expected to present a fully integrated database, including the following:
+    - Database stores static data for use during the project
+    - Database interfaces with the project in some format (e.g., scraping updates the database)
+    - Includes at least two tables (or collections, if using MongoDB)
+    - Includes at least one join using the database language (not including any joins in Pandas)
+    - Includes at least one connection string (using SQLAlchemy or PyMongo)
+    - If you use a SQL database, you must provide your ERD with relationships.
+
+### Dashboard
+  - A blueprint for the dashboard is created and includes all of the following:
+    - Storyboard on a Google Slide(s)
+    - Description of the tool(s) that will be used to create the final dashboard
+    - Description of interactive element(s)
+
+
+## Segment 1 Deliverables (May 15)
 
 ### Summary
 The team pivoted mid-week to change the approach to the project, including the sources for our data, and increase the amount of data we plan to run through a machine learning model. The "plumbing" has been set up with Python, PostgreSQL and AWS, and now the work begins to clean the data, merge and create final tables in the database, and then continue to test the machine learning model(s).
