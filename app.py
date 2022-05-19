@@ -16,11 +16,11 @@ def home():
 def predict():
     feature_list = request.form.to_dict()
     feature_list = list(feature_list.values())
-    feature_list = list(map(int, feature_list))
+    feature_list = list(map(float, feature_list))
     final_features = np.array(feature_list).reshape(1, 10) 
     
     prediction = model.predict(final_features)
-    int(prediction[0])
+    output = float(prediction[0])
 
     return render_template('index.html', prediction_text='Effect on Mortality per 100,000 people with updates: {}'.format(text))
 
