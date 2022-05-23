@@ -6,7 +6,7 @@ import pickle
 
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
-cols=['factor1','factor2','factor3','factor4']
+cols = ['Percent_Smokers','Average_Daily_Air_Polution_Particle_Matter','Food_Environment_Index','Percent_Unemployed','Income_Inequality_Ratio']
 
 @app.route('/')
 def home():
@@ -14,16 +14,17 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predict():
+
     feature_list = request.form.to_dict()
     feature_list = list(feature_list.values())
-    feature_list = list(map(int, feature_list))
-    final_features = np.array(feature_list).reshape(1, 4) 
-    
+    feature_list = list(map(float, feature_list))
+    final_features = np.array(feature_list).reshape(1, 5)
+
     prediction = model.predict(final_features)
-    text = int(prediction[0])
+    output = round(prediction[0], 1)
 
-    return render_template('index.html', prediction_text='Effect on Mortality per 100,000 people with updates: {}'.format(text))
-
+    return render_template('index.html', prediction_text='{} deaths'.format(output))
 
 if __name__ == "__main__":
     app.run(debug=True)
+    # app.run(host='localhost', port=5000)
