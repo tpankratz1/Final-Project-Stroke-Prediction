@@ -56,7 +56,7 @@ PostgreSQL is the database we intend to use, connected to AWS.
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. [Extra ML verbiage will be added here].
 
 ### Dashboard
-We intend to either integrate D3.js or use Tableau for a fully functioning and interactive dashboard displayed on a web page, highlighting results from the data and machine learning exercises. We also plan to include an interactive web form to gather user input to run through our machine learning module, using Flask and likely hosted on Heroku (still to be determined).
+We intend to either integrate D3.js or use Tableau for a fully functioning and interactive dashboard displayed on a web page, highlighting results from the data and machine learning exercises. We also plan to include an interactive web form to gather user input to run through our machine learning module, using Flask and hosted on PythonAnywhere.com.
 
 ## Segment 2 Deliverables (May 29)
 
