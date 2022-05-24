@@ -110,6 +110,7 @@ We intend to either integrate D3.js or use Tableau for a fully functioning and i
     - Includes at least one join using the database language (not including any joins in Pandas)
 
       ![Original attempt](Resources/Two_Tables_in_pgAdmin_before_JOIN.jpg)
+      
       ![Original attempt](Resources/SQL_Table_JOIN_in_pgAdmin.jpg)
 
     - Includes at least one connection string (using SQLAlchemy or PyMongo)
