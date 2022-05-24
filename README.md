@@ -96,8 +96,21 @@ We intend to either integrate D3.js or use Tableau for a fully functioning and i
   - The team members are expected to submit the code for the machine learning model, as well as the following:
     - Description of preliminary data preprocessing
     - Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+        - The target was easily identifiable as the team seeks to develop a model that provides a stroke mortality prediction. With the dataset that we have chosen to 
+            use, there will be a minimal of three [similar] models as we work through understanding what the best predictors may be for an individual.  We will build a
+            mahcine learning model <random forest regressor?> against all applicable features of the dataset.  We also will copy / edit the working model two times;
+            one time to run the model against clearly health related features such as smoker or obesity, while the other will be run against the environmental / 
+            economic features that are included such as air quality or unemployment.  The team also ran a check on the importances of features in our attempt to fully
+            understand the data.  <A suggested fourth model run against the top 4-5 important features?>
     - Description of how data was split into training and testing sets
-    - Explanation of model choice, including limitations and benefits
+    - Explanation of model choice, including limitations and benefits (model base research: https://community.alteryx.com/t5/Data-Science/Predictive-Process-Step-1-Finding-Your-Target-Variable/ba-p/401639)
+            - The first model attempted was Spline. Because our team chose to work with a continuous target rather than binary, we did some research on model options
+                that may apply.  This model was working well in practice / learning, however we ran in to our first challenge when finding no clear path for using the
+                the multiple features that we wanted to include for use in our dataset. 
+            - The second model attempted was the MARS. Practice modeling with a single feature went smoothly, however we quickly recognized the limitations of this
+                model were similar to that of Spline. While we could run multiple features using MARS, having 13 features would be difficult to interpret in the model
+                due to the complexity in the 3D modeling. 
+            - Following in class discussion, we then moved to exploring convultional neural network and random forest regressor modeling.  <work in progress>
 
 ### Database Integration
   - The team members are expected to present a fully integrated database, including the following:
