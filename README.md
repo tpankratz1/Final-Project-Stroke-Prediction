@@ -102,11 +102,20 @@ We intend to either integrate D3.js or use Tableau for a fully functioning and i
 ### Database Integration
   - The team members are expected to present a fully integrated database, including the following:
     - Database stores static data for use during the project
+
+      ![Original attempt](Resources/New_table_after_JOIN_in_pgAdmin.jpg)
+
     - Database interfaces with the project in some format (e.g., scraping updates the database)
     - Includes at least two tables (or collections, if using MongoDB)
     - Includes at least one join using the database language (not including any joins in Pandas)
+
+      ![Original attempt](Resources/Two_Tables_in_pgAdmin_before_JOIN.jpg)
+      ![Original attempt](Resources/SQL_Table_JOIN_in_pgAdmin.jpg)
+
     - Includes at least one connection string (using SQLAlchemy or PyMongo)
     - If you use a SQL database, you must provide your ERD with relationships.
+
+      ![Original attempt](Resources/ERD_2_tables.png)
 
 ### Dashboard
   - A blueprint for the dashboard is created and includes all of the following:
