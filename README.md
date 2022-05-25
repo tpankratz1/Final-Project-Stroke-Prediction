@@ -106,14 +106,14 @@ We intend to either integrate D3.js or use Tableau for a fully functioning and i
     - Description of how data was split into training and testing sets
         - Training and testing sets were split using the default parameters.
     - Explanation of model choice, including limitations and benefits (model base research: https://community.alteryx.com/t5/Data-Science/Predictive-Process-Step-1-Finding-Your-Target-Variable/ba-p/401639)
-            - The first model attempted was Spline. Because our team chose to work with a continuous target rather than binary, we did some research on model options
-                that may apply.  This model was working well in practice / learning, however we ran in to our first challenge when finding no clear path for using the
-                the multiple features that we wanted to include for use in our dataset. 
-            - The second model attempted was the MARS. Practice modeling with a single feature went smoothly, however we quickly recognized the limitations of this
-                model were similar to that of Spline. While we could run multiple features using MARS, having 13 features would be difficult to interpret in the model
-                due to the complexity in the 3D modeling. 
-            - Following in class discussion, we then moved to exploring convulutional neural network and random forest regressor modeling. At this time CNN did not 
-                move foward as a model to use due to high usage for image data which we are not working with. 
+    - The first model attempted was Spline. Because our team chose to work with a continuous target rather than binary, we did some research on model options
+      that may apply.  This model was working well in practice / learning, however we ran in to our first challenge when finding no clear path for using the
+      the multiple features that we wanted to include for use in our dataset. 
+    - The second model attempted was the MARS. Practice modeling with a single feature went smoothly, however we quickly recognized the limitations of this
+      model were similar to that of Spline. While we could run multiple features using MARS, having 13 features would be difficult to interpret in the model
+      due to the complexity in the 3D modeling. 
+    - Following in class discussion, we then moved to exploring convulutional neural network and random forest regressor modeling. At this time CNN did not 
+      move foward as a model to use due to high usage for image data which we are not working with. 
 
 ### Database Integration
   - The team members are expected to present a fully integrated database, including the following:
