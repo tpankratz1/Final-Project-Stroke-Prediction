@@ -23,7 +23,7 @@
       <div class="banner">
         <h1>Stroke Predictor</h1>
       </div>
-      <h2 class="arrow">Enter health and social factor values below to predict effect on Stroke Mortality</h2>
+      <h2 class="arrow">Enter any combination of health and social factor values below to predict effect on Stroke Mortality</h2>
       <div class="wrapper">
         <div class="column">
           <form action="{{ url_for('predict')}}" method="post">
@@ -61,30 +61,30 @@
           </div>
         </div>
       </div>
-      <h2 class="arrow" id="strokemortality">Stroke Mortality rates by U.S. counties</h2>
+      <h2 class="arrow" id="strokemortality">Stroke Mortality rates by U.S. counties: <a href="https://catalog.data.gov/dataset/stroke-mortality-data-among-us-adults-35-by-state-territory-and-county-2017-2019-d738a" style="font-size: 14px; font-weight: 400;">Get details from Centers for Disease Control and Prevention (CDC)</a></h2>
       <div class="wrapper">
-        <iframe src="https://public.tableau.com/authoring/StrokeMortality_16532640128710/StrokeMortality" width="96%" height="800"></iframe>
+        <iframe src="https://public.tableau.com/authoring/StrokeMortality_16532640128710/StrokeMortality?:embed=y&:display_count=yes&:showTabs=y&:toolbar=no?&:showVizHome=no" width="96%" height="800"></iframe>
       </div>
       <h2 class="arrow">Factors that could correlate with Stroke Mortality rates</h2>
       <div class="wrapper">
         <div class="column">
-          <p class="features" id="percentsmokers">Percent Smokers</p>
+          <p class="features" id="percentsmokers">Percent Smokers: <a href="https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/tobacco-use" style="font-size: 14px; font-weight: 400;">Get details from County Health Rankings & Roadmaps</a></p>
           <iframe src="https://public.tableau.com/authoring/PercentSmokers/PercentSmokers" width="96%" height="400"></iframe>
         </div>
         <div class="column">
-          <p class="features" id="airpollution">Average Daily Air Polution Particle Matter</p>
+          <p class="features" id="airpollution">Average Daily Air Polution Particle Matter: <a href="https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/physical-environment/air-water-quality/air-pollution-particulate-matter" style="font-size: 14px; font-weight: 400;">Get details from County Health Rankings & Roadmaps</a></p>
           <iframe src="https://public.tableau.com/authoring/AverageDailyAirPollutionParticleMatter/AverageDailyAirPolutionParticleMatter" width="96%" height="400"></iframe>
         </div>
         <div class="column">
-          <p class="features" id="foodenvironmentindex">Food Environment Index</p>
+          <p class="features" id="foodenvironmentindex">Food Environment Index: <a href="https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/diet-exercise/food-environment-index" style="font-size: 14px; font-weight: 400;">Get details from County Health Rankings & Roadmaps</a></p>
           <iframe src="https://public.tableau.com/authoring/FoodEnvironmentIndex/FoodEnvironmentIndex" width="96%" height="400"></iframe>
         </div>
         <div class="column">
-          <p class="features" id="percentunemployed">Percent Unemployed</p>
+          <p class="features" id="percentunemployed">Percent Unemployed: <a href="https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/employment/unemployment" style="font-size: 14px; font-weight: 400;">Get details from County Health Rankings & Roadmaps</a></p> 
           <iframe src="https://public.tableau.com/authoring/PercentUnemployed/PercentUnemployed" width="96%" height="400"></iframe>
         </div>
         <div class="column">
-          <p class="features" id="incomeinequalityratio">Income Inequality Ratio</p>
+          <p class="features" id="incomeinequalityratio">Income Inequality Ratio: <a href="https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/income/income-inequality" style="font-size: 14px; font-weight: 400;">Get details from County Health Rankings & Roadmaps</a></p>
           <iframe src="https://public.tableau.com/authoring/IncomeInequalityRatio/IncomeInequalityRatio" width="96%" height="400"></iframe>
         </div>
       </div>
