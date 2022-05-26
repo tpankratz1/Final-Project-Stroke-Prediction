@@ -164,6 +164,11 @@ border-radius: 6px;
 padding: 7px 0;
 font-size: 16px;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  font-weight: 400;
+  opacity: 1; /* Firefox */
+}
 .item input {
 width: 100px;
 padding: 7px;
@@ -250,7 +255,7 @@ padding: 30px;
 margin: 20px 0 0 0;
 outline: none;
 width: 96%;
-height: 100px;
+height: 494px;
 }
 .output_text, .output_value {
 font-family: Roboto, Arial, sans-serif;
@@ -260,10 +265,31 @@ line-height: 22px;
 }
 .output_text {
 font-size: 20px;
-margin-bottom: 30px;
+margin-bottom: 22px;
 }
 .output_value {
 font-size: 44px;
+margin-bottom: 26px;
+}
+.prediction_output ul {
+font-family: Roboto, Arial, sans-serif;
+font-weight: 400;
+color: #fff;
+line-height: 24px;
+font-size: 14px;
+list-style-type: none;
+margin: 8px 0 0 0;
+margin-left: -36px;
+}
+.prediction_output ul li.key {
+padding-top: 10px;
+margin: 0 0 8px 0;
+border-top: 1px solid #fff;
+}
+.prediction_output ul li.value {
+font-weight: bold;
+font-size: 20px;
+padding-bottom: 10px;
 }
 .reference {
 padding: 0;
