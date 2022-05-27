@@ -7,7 +7,7 @@
 - Rachel Rautenberg
 
 ### Selected topic
-The goal of this project is to predict which factors may correlate (and possibly contribute) to higher stroke mortality rates within the United States, looking at any variances by region, state and county. Factors which we've explored, trained and tested through various machine learning models include:
+The goal of this project is to find out if we are able to predict which factors may correlate (and possibly contribute) to higher stroke mortality rates within the United States. Factors which we've explored, trained and tested through various machine learning models include:
 
 Health-related factors:
 - Smoking
@@ -42,8 +42,10 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
     - https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2019
 
 ### Questions hoped to get answered:
-- To what extent do factors listed above correlate to higher stroke mortality rates?
-- What differences can be uncovered by region, state and county?
+
+- Are we able to predict potential stroke mortality rates based on a set of health-related or social-related factors?
+- Are there certain factors that are more important than others?
+
 
 ## Technologies Used:
 
@@ -64,7 +66,9 @@ An interactive web site has been created and is hosted on pythonanywhere.com. It
 
 ### Presentation
 
-A presentation has been created on Google Slides, outlining the project and includes the following sections, as required. The file can be found here: https://docs.google.com/presentation/d/1E1D_wDwgtw-h_wREXM73hGIfPYEHObPIjhqgLeNW1OE/edit?usp=sharing
+A presentation has been created on Google Slides, outlining the project and includes the following sections, as required. The file can be found here or PDF (below): https://docs.google.com/presentation/d/1E1D_wDwgtw-h_wREXM73hGIfPYEHObPIjhqgLeNW1OE/edit?usp=sharing
+
+ ![Presentation Google Slides (PDF)](Resources/Stroke_Predictor_Google_Slides.pdf)
 
 - Content
   - The presentation outlines the project, including the following:
@@ -108,7 +112,7 @@ A presentation has been created on Google Slides, outlining the project and incl
             - Countyhealthrankings.org
             - Publisher: University of Wisconsin Population Health Institute (Program: County Health Rankings & Roadmaps (CHR&R))
             - https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2019
-      - Cleaning the stroke mortality dataset:
+      - Cleaning the datasets:
         - The stroke mortality dataset was less extensive, but required quite a bit of cleaning and pre-processing. Python was used, using Pandas and Numpy, and here's the file: https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/Models%20Practice%20%26%20Cleaning%20Code/Stroke_Mortality_Cleaned.ipynb. The original dataset had 59,094 rows and 20 columns. We knew that the county ID (or FIPS) would be the common primary key in the PostgreSQL database, and thus needed to clean the data down to 3,142 rows, or the number of counties within the United States. Non-beneficial columns were dropped. Column names were renamed for clarity. Columns with additional data not needed were filtered out. Extra regions were removed, such as Puerto Rico, Guam and more. Finally, extra values not neeeded were dropped, reducing the total number of rows to the needed 3,142, and to only include 2 columns: The FIPS (primary key) and the stroke mortality rate by county.
         - The health rankings dataset, which includes social factors, was more extensive and also required a fair amount of preprocessing. Python was again used, along with Pandas and Numpy, and here's the file: https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/Models%20Practice%20%26%20Cleaning%20Code/Health_Rankings_Cleaned.ipynb. It initially contained 3,143 rows and 166 columns. The team spent a considerable amount of time selecting which factors to use as the features for the machine learning models, hypothesizing which ones could have the biggest influence on stroke mortality rates across the United States. The team finally chose 13 total, with 6 health-related and 7 social or environment-related. The job then began to preprocess the data down to only what was needed. To start, unwanted columns were dropped. The remaining columns were renamed for consistency. Another dataset was discovered a day later, showing percent urban vs. rural for each county, so it was loaded and then merged with the main dataset, using Pandas. Colums were then rearranged in preparation to merge with the other dataset in the PostgreSQL database.
     - Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
