@@ -161,7 +161,7 @@ A presentation has been created on Google Slides, outlining the project and incl
     - Storyboard on a Google Slide(s): 
       - Original draft has been created. See screenshot below and Google slide(s): https://docs.google.com/presentation/d/1E1D_wDwgtw-h_wREXM73hGIfPYEHObPIjhqgLeNW1OE/edit?usp=sharing
     - Description of the tool(s) that will be used to create the final dashboard
-      - An interactive web site has been created and is hosted on pythonanywhere.com. It will include interactive dashboards built in Tableau (that will be embedded on the site via iframes).
+      - An interactive web site has been created and is hosted on heroku.com. It will include interactive dashboards built in Tableau (that will be embedded on the site via iframes).
     - Description of interactive element(s)
       - The web site will also include an interactive form, built with Flask. It will allow users to enter data for the chosen features/factors and use a machine learning model to predict stroke mortality rates based on that input data. See screenshot below.
 
