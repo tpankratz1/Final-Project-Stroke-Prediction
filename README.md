@@ -7,7 +7,7 @@
 - Rachel Rautenberg
 
 ### Selected topic
-The goal of this project is to predict which factors may correlate (and possibly contribute) to higher stroke mortality rates within the United States, looking at any variances by region, state and county. Factors which we've explored, trained and tested through various machine learning models include:
+The goal of this project is to find out if we are able to predict which factors may correlate (and possibly contribute) to higher stroke mortality rates within the United States. Factors which we've explored, trained and tested through various machine learning models include:
 
 Health-related factors:
 - Smoking
@@ -42,8 +42,10 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
     - https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2019
 
 ### Questions hoped to get answered:
-- To what extent do factors listed above correlate to higher stroke mortality rates?
-- What differences can be uncovered by region, state and county?
+
+- Are we able to predict potential stroke mortality rates based on a set of health-related or social-related factors?
+- Are there certain factors that are more important than others?
+
 
 ## Technologies Used:
 
