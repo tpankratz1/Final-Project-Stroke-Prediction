@@ -66,7 +66,9 @@ An interactive web site has been created and is hosted on pythonanywhere.com. It
 
 ### Presentation
 
-A presentation has been created on Google Slides, outlining the project and includes the following sections, as required. The file can be found here: https://docs.google.com/presentation/d/1E1D_wDwgtw-h_wREXM73hGIfPYEHObPIjhqgLeNW1OE/edit?usp=sharing
+A presentation has been created on Google Slides, outlining the project and includes the following sections, as required. The file can be found here or PDF (below): https://docs.google.com/presentation/d/1E1D_wDwgtw-h_wREXM73hGIfPYEHObPIjhqgLeNW1OE/edit?usp=sharing
+
+ ![Presentation Google Slides (PDF)](Resources/Stroke_Predictor_Google_Slides.pdf)
 
 - Content
   - The presentation outlines the project, including the following:
