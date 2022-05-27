@@ -1,2 +1,5 @@
-Notes for presentation:
-Janice
+## Notes for presentation:
+* Janice:
+* Tom:
+* Rachel:
+* Alex:
