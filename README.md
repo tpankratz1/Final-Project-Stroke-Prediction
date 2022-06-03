@@ -152,7 +152,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 
     - The web site also includes an interactive form, built with Flask. It allows users to enter data for the chosen features/factors and uses the Random Forest Regressor maching learning model to predict stroke mortality rates based on that input data. **Web site link coming soon.**
 
-      ![Original attempt](Resources/stroke_predictor_website.png)
+      ![Original attempt](Resources/stroke_mortality_predictor_website.png)
 
 --------------------------------
 
