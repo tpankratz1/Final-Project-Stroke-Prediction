@@ -136,7 +136,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 - The second model attempted was the MARS. Practice modeling with a single feature went smoothly, however we quickly recognized the limitations of this model were similar to that of Spline. While we could run multiple features using MARS, having 13 features would be difficult to interpret in the model due to the complexity in the 3D modeling.
 - Following in class discussion, we then moved to exploring convulutional neural network and random forest regressor modeling. At this time CNN did not move foward as a model to use due to high usage for image data which we are not working with.
 - The machine learning model that we decided to use was SciKitLearn's RandomForestRegressor. We went with this model because it worked well with the number of features we were using and the target that we identified was continuous rather than binary.
-- An GridSearchCV was run in an effort to optimize our model.  We updated the parameters, however this did not result in significant gains for the accuracy of our model so there were no major changes to our model for segment three.  We did however convert repetitive code in to functions. 
+- A GridSearchCV was run in an effort to optimize our model.  We updated the parameters to test, however this did not result in significant gains for the accuracy of our model so we reverted to original parameters, resulting in no major changes for segment three.  We did however convert repetitive code in to functions. 
 
 **Description of accuracy metric**
 
