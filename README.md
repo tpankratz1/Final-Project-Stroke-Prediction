@@ -195,7 +195,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 ### GitHub
 
 - Main Branch
-    - ~~All code in the main branch is production ready.
+    - ~~All code in the main branch is production ready~~
     - ~~All code necessary to perform exploratory analysis~~
     - ~~Most code necessary to complete the machine learning portion of project~~
 - README.md
