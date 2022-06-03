@@ -119,7 +119,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 
 **Description of preliminary feature engineering and preliminary feature selection, including the decision-making process**
 
-  - The target was easily identifiable as the team sought to develop a machine learning model that provided a stroke mortality prediction. With the datasets that we chose to use, there was a minimum of three [similar] models as we worked through understanding what the best predictors were for an individual. 
+  - The target was easily identifiable as the team sought to develop a machine learning model that provided a stroke mortality prediction. With the datasets that we chose to use, there were three [similar] models as we worked through understanding what the best predictors were for an individual. 
   - We built a machine learning model, using SciKitLearn's RandomForestRegressor, against all applicable features of the dataset. 
   - We copied and edited the working model two times:
     - The first time to run the model against health related features such as smoker or obesity
@@ -135,7 +135,13 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 - The first model attempted was Spline. Because our team chose to work with a continuous target rather than binary, we did some research on model options that may apply. This model was working well in practice / learning, however we ran in to our first challenge when finding no clear path for using the the multiple features that we wanted to include for use in our dataset.
 - The second model attempted was the MARS. Practice modeling with a single feature went smoothly, however we quickly recognized the limitations of this model were similar to that of Spline. While we could run multiple features using MARS, having 13 features would be difficult to interpret in the model due to the complexity in the 3D modeling.
 - Following in class discussion, we then moved to exploring convulutional neural network and random forest regressor modeling. At this time CNN did not move foward as a model to use due to high usage for image data which we are not working with.
+- The machine learning model that we decided to use was SciKitLearn's RandomForestRegressor. We went with this model because it worked well with the number of features we were using and the target that we identified was continuous rather than binary.
+- A GridSearchCV was run in an effort to optimize our model.  We updated the parameters to test, however this did not result in significant gains for the accuracy of our model so we reverted to original parameters, resulting in no major changes for segment three.  We did however convert repetitive code in to functions. 
 
+**Description of accuracy metric**
+
+- When using the RandomForestRegression model the accuracy metric to use for validation is the RMSE, Root Mean Square Error.  The rule of thumb for RMSE is that a value between 0.2 to 0.5 is pretty accurately able to predict the data. Generally the lower the RMSE the better fit, however RMSE values lower than 0.2 would also suggest an overfit model.
+- The RMSE value for our three models is 12.13 for the full dataset, 13.12 for the health only features, and 13.21 for the economic / environmental features. We recognize that this value suggests that our model is not very accurate.  Disucssion leads us to believe that the lack of accuracy of our model is very likely due to the unique features we chose to use in our data. Ultimately the data features we are working with are not likely to predict stroke mortality. 
 --------------------------------
 
 ### Dashboard
@@ -189,7 +195,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 ### GitHub
 
 - Main Branch
-    - All code in the main branch is production-ready
+    - ~~All code in the main branch is production ready~~
     - ~~All code necessary to perform exploratory analysis~~
     - ~~Most code necessary to complete the machine learning portion of project~~
 - README.md
@@ -210,11 +216,10 @@ following:
 - ~~Description of data preprocessing~~
 - ~~Description of feature engineering and the feature selection, including their decisionmaking process~~
 - ~~Description of how data was split into training and testing sets~~
-- Explanation of model choice, including limitations and benefits
-- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+- ~~Explanation of changes in model choice (if changes occurred between te Segment 2 and Segment 3 deliverables)~~
 - ~~Description of how they have trained the model thus far, and any additional training
   that will take place~~
-- Description of current accuracy score
+- ~~Description of current accuracy score~~
 
 Additionally, the model obviously addresses the question or problem the team is solving.
 
