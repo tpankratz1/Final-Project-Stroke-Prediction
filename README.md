@@ -221,15 +221,15 @@ following:
   that will take place~~
 - ~~Description of current accuracy score~~
 
-Additionally, the model obviously addresses the question or problem the team is solving.
+~~Additionally, the model obviously addresses the question or problem the team is solving.~~
 
 ### Dashboard
 
 The dashboard presents a data story that is logical and easy to follow for someone
 unfamiliar with the topic. It includes all of the following:
 
-- Images from the initial analysis
-- Data (images or report) from the machine learning task
+- ~~Images from the initial analysis~~
+- ~~Data (images or report) from the machine learning task~~
 - ~~At least one interactive element~~
 
 --------------------------------
