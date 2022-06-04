@@ -148,9 +148,9 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 
 - A dashboard is created and includes all of the following:
 
-    - An interactive web site was created and is hosted on heroku.com. It includes a dashboard built in Tableau, highlighting features data via United States maps.
+    - An [interactive web site](https://strokepredictor-us.herokuapp.com/) was created and is hosted on heroku.com. It includes dashboards built in Tableau, highlighting features data via United States maps.
 
-    - The web site also includes an interactive form, built with Flask. It allows users to enter data for the chosen features/factors and uses the Random Forest Regressor maching learning model to predict stroke mortality rates based on that input data. **Web site link coming soon.**
+    - The web site also includes an [interactive web form](https://strokepredictor-us.herokuapp.com/), built with Flask. It allows users to enter data for the chosen features/factors and uses the Random Forest Regressor maching learning model to predict stroke mortality rates based on that input data.
 
       ![Original attempt](Resources/stroke_mortality_predictor_website.png)
 
