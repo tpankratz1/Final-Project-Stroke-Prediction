@@ -206,7 +206,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 
 - Individual Branches
   - ~~At least one branch for each team member~~
-  - Each team member has at least four commits for the duration of the third segment (12 total commits per person)
+  - ~~Each team member has at least 12 total commits~~
 
 ### Machine Learning Model
 
@@ -217,8 +217,7 @@ following:
 - ~~Description of feature engineering and the feature selection, including their decisionmaking process~~
 - ~~Description of how data was split into training and testing sets~~
 - ~~Explanation of changes in model choice (if changes occurred between te Segment 2 and Segment 3 deliverables)~~
-- ~~Description of how they have trained the model thus far, and any additional training
-  that will take place~~
+- ~~Description of how they have trained the model thus far, and any additional training that will take place~~
 - ~~Description of current accuracy score~~
 
 ~~Additionally, the model obviously addresses the question or problem the team is solving.~~
