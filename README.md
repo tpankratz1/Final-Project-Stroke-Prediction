@@ -123,8 +123,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
   - We built a machine learning model, using SciKitLearn's RandomForestRegressor, against all applicable features of the dataset. 
   - We copied and edited the working model two times:
     - The first time to run the model against health related features such as smoker or obesity
-    - The second time to run the model against the environmental /
-    economic features that were included, such as air quality or unemployment. 
+    - The second time to run the model against the environmental / economic features that were included, such as air quality or unemployment. 
     - A fourth model was run against the features that were identified as top
     importances. This model was not considered as the final machine learning model, but instead used as a support tool to view metrics with just these features. We understood the risk of overfitting by reducing to only the features of importance, so this fourth model was more used for interest than final use.
 
