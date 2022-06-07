@@ -2,7 +2,7 @@
 
 --------------------------------
 
-### Team members:
+### Team members
 
 - Janice Courtois
 - Alex Norgren
@@ -48,14 +48,14 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
 --------------------------------
 
-### Questions hoped to get answered:
+### Questions hoped to get answered
 
 - Are we able to predict potential stroke mortality rates based on a set of health-related or social-related factors?
 - Are there certain factors that are more important than others?
 
 --------------------------------
 
-### Description of data sources:
+### Description of data sources
 
 - **[Stroke Mortality Data Among US Adults (35+) by State/Territory and County (2018)](https://catalog.data.gov/dataset/stroke-mortality-data-among-us-adults-35-by-state-territory-and-county-2017-2019-d738a)**
   - Data.gov
@@ -67,7 +67,7 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
 --------------------------------
 
-### Description of the data exploration phase of the project:
+### Description of the data exploration phase of the project
 
 - Once our team determined that stroke mortality rates by counties within the United States was to be our target dataset, we brainstormed on possible health-related and social-related factors to research that may correlate (and possibly contribute) to higher stroke mortality rates within the United States. 
 - We did a lot of Google searches on random factors such as average days of sunlight per year, amount of drug use, number of fitness facilities per capita, number of restaurants per capita, and many more. 
@@ -75,7 +75,7 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
 --------------------------------
 
-### Description of the analysis phase of the project:
+### Description of the analysis phase of the project
 
 - PostgreSQL was used for data storage and merging, connected to AWS via pgAdmin 4.
 
@@ -123,8 +123,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
   - We built a machine learning model, using SciKitLearn's RandomForestRegressor, against all applicable features of the dataset. 
   - We copied and edited the working model two times:
     - The first time to run the model against health related features such as smoker or obesity
-    - The second time to run the model against the environmental /
-    economic features that were included, such as air quality or unemployment. 
+    - The second time to run the model against the environmental / economic features that were included, such as air quality or unemployment. 
     - A fourth model was run against the features that were identified as top
     importances. This model was not considered as the final machine learning model, but instead used as a support tool to view metrics with just these features. We understood the risk of overfitting by reducing to only the features of importance, so this fourth model was more used for interest than final use.
 
@@ -140,8 +139,9 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 
 **Description of accuracy metric**
 
-- When using the RandomForestRegression model the accuracy metric to use for validation is the RMSE, Root Mean Square Error.  The rule of thumb for RMSE is that a value between 0.2 to 0.5 is pretty accurately able to predict the data. Generally the lower the RMSE the better fit, however RMSE values lower than 0.2 would also suggest an overfit model.
-- The RMSE value for our three models is 12.13 for the full dataset, 13.12 for the health only features, and 13.21 for the economic / environmental features. We recognized that this value suggested that our model was not very accurate.  Discussion lead us to believe that the lack of accuracy of our model was very likely due to the unique features we chose to use in our data. Ultimately the data features we were working with are not likely to predict stroke mortality. 
+- When using the RandomForestRegressor model the accuracy metric to use for validation is the RMSE, Root Mean Square Error.  The rule of thumb for RMSE is that a value between 0.2 to 0.5 is pretty accurately able to predict the data. Generally the lower the RMSE the better fit, however RMSE values lower than 0.2 would also suggest an overfit model.
+- The RMSE value for our three models is 12.13 for the full dataset, 13.12 for the health only features, and 13.21 for the economic / environmental features. We recognized that this value suggested that our model was not very accurate.  Discussion lead us to believe that the lack of accuracy of our model was very likely due to the unique features we chose to use in our data. Ultimately the data features we were working with are not likely to predict stroke mortality.
+
 --------------------------------
 
 ### Dashboard
@@ -176,11 +176,12 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 
 --------------------------------
 
-## Segment 3 Deliverables (June 5)
+## Segment 4 Deliverables (June 9)
 
 ### Presentation
 
-- The presentation outlines the project, including the following:
+- The presentation tells a cohesive story about their project, including the
+following:
   - ~~Selected topic~~
   - ~~Reason topic was selected~~
   - ~~Description of the source of data~~
@@ -188,25 +189,39 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
   - ~~Description of the data exploration phase of the project~~
   - ~~Description of the analysis phase of the project~~
   - ~~Technologies, languages, tools, and algorithms used throughout the project~~
+  - ~~Results of analysis~~
+  - ~~Recommendation for future analysis~~
+  - ~~Anything the team would have done differently~~
 
 - Slides
-  - ~~Presentations are drafted in Google Slides~~.
+  - ~~Presentations are finalized in Google Slides.~~
+    - ~~Slides are primarily images or graphics (rather than primarily text)~~
+    - ~~Images are clear, in high-definition, and directly illustrative of subject matter~~
+
+- Live Presentation
+  - ~~All team members present in equal proportions~~
+  - ~~The team demonstrates interactivity of dashboard in real time~~
+  - ~~The presentation falls within any time limits provided by instructor~~
+  - ~~Submission includes speaker notes, flashcards, or a video of the presentation rehearsal~~
 
 ### GitHub
 
 - Main Branch
     - ~~All code in the main branch is production ready~~
-    - ~~All code necessary to perform exploratory analysis~~
-    - ~~Most code necessary to complete the machine learning portion of project~~
+    - ~~All code is clean, commented, easy to read, and adheres to a coding standard (e.g., PEP8)~~
+    - ~~All code necessary to complete the machine learning portion of project~~
+    - ~~Any images that have been created (at least three)~~
+    - ~~Requirements.txt file~~
+
 - README.md
-  - README.md should include:
-    - ~~Description of the communication protocols has been removed~~
+  - README.md must include:
     - ~~Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)~~
-    - ~~Link to Google Slides draft presentation~~
+    - ~~Link to dashboard (or link to video of dashboard demo)~~
+    - ~~Link to Google Slides presentation~~
 
 - Individual Branches
   - ~~At least one branch for each team member~~
-  - ~~Each team member has at least 12 total commits~~
+  - Each team member has at least four commits for the duration of the final segment (16 total commits per person)
 
 ### Machine Learning Model
 
@@ -214,13 +229,23 @@ Team members submit the working code for their machine learning model, as well a
 following:
 
 - ~~Description of data preprocessing~~
-- ~~Description of feature engineering and the feature selection, including their decisionmaking process~~
+- ~~Description of feature engineering and the feature selection, including the team's decisionmaking process~~
 - ~~Description of how data was split into training and testing sets~~
-- ~~Explanation of changes in model choice (if changes occurred between te Segment 2 and Segment 3 deliverables)~~
-- ~~Description of how they have trained the model thus far, and any additional training that will take place~~
-- ~~Description of current accuracy score~~
-
+- ~~Explanation of model choice, including limitations and benefits~~
+- ~~Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)~~
+- ~~Description of how model was trained (or retrained, if they are using an existing model)~~
+- ~~Description and explanation of model’s confusion matrix, including final accuracy score~~
 ~~Additionally, the model obviously addresses the question or problem the team is solving.~~
+
+### Database
+
+~~Team members present a final project with a fully integrated database.~~
+- ~~Database stores static data for use during the project~~
+- ~~Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)~~
+- ~~Includes at least two tables (or collections, if using MongoDB)~~
+- ~~Includes at least one join using the database language (not including any joins in Pandas)~~
+- ~~Includes at least one connection string (using SQLAlchemy or PyMongo)~~
+~~Note: If you use a SQL database, you must provide your ERD with relationships.~~
 
 ### Dashboard
 
@@ -230,6 +255,7 @@ unfamiliar with the topic. It includes all of the following:
 - ~~Images from the initial analysis~~
 - ~~Data (images or report) from the machine learning task~~
 - ~~At least one interactive element~~
+~~Either the dashboard is published or the submission includes a screen capture video of it in action.~~
 
 --------------------------------
 
