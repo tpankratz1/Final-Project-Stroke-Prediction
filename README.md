@@ -176,11 +176,12 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 
 --------------------------------
 
-## Segment 3 Deliverables (June 5)
+## Segment 4 Deliverables (June 9)
 
 ### Presentation
 
-- The presentation outlines the project, including the following:
+- The presentation tells a cohesive story about their project, including the
+following:
   - ~~Selected topic~~
   - ~~Reason topic was selected~~
   - ~~Description of the source of data~~
@@ -188,25 +189,39 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
   - ~~Description of the data exploration phase of the project~~
   - ~~Description of the analysis phase of the project~~
   - ~~Technologies, languages, tools, and algorithms used throughout the project~~
+  - ~~Results of analysis~~
+  - ~~Recommendation for future analysis~~
+  - ~~Anything the team would have done differently~~
 
 - Slides
-  - ~~Presentations are drafted in Google Slides~~.
+  - ~~Presentations are finalized in Google Slides.~~
+    - ~~Slides are primarily images or graphics (rather than primarily text)~~
+    - ~~Images are clear, in high-definition, and directly illustrative of subject matter~~
+
+- Live Presentation
+  - ~~All team members present in equal proportions~~
+  - ~~The team demonstrates interactivity of dashboard in real time~~
+  - ~~The presentation falls within any time limits provided by instructor~~
+  - ~~Submission includes speaker notes, flashcards, or a video of the presentation rehearsal~~
 
 ### GitHub
 
 - Main Branch
     - ~~All code in the main branch is production ready~~
-    - ~~All code necessary to perform exploratory analysis~~
-    - ~~Most code necessary to complete the machine learning portion of project~~
+    - ~~All code is clean, commented, easy to read, and adheres to a coding standard (e.g., PEP8)~~
+    - ~~All code necessary to complete the machine learning portion of project~~
+    - ~~Any images that have been created (at least three)~~
+    - ~~Requirements.txt file~~
+
 - README.md
-  - README.md should include:
-    - ~~Description of the communication protocols has been removed~~
+  - README.md must include:
     - ~~Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)~~
-    - ~~Link to Google Slides draft presentation~~
+    - ~~Link to dashboard (or link to video of dashboard demo)~~
+    - ~~Link to Google Slides presentation~~
 
 - Individual Branches
   - ~~At least one branch for each team member~~
-  - ~~Each team member has at least 12 total commits~~
+  - Each team member has at least four commits for the duration of the final segment (16 total commits per person)
 
 ### Machine Learning Model
 
@@ -214,13 +229,23 @@ Team members submit the working code for their machine learning model, as well a
 following:
 
 - ~~Description of data preprocessing~~
-- ~~Description of feature engineering and the feature selection, including their decisionmaking process~~
+- ~~Description of feature engineering and the feature selection, including the team's decisionmaking process~~
 - ~~Description of how data was split into training and testing sets~~
-- ~~Explanation of changes in model choice (if changes occurred between te Segment 2 and Segment 3 deliverables)~~
-- ~~Description of how they have trained the model thus far, and any additional training that will take place~~
-- ~~Description of current accuracy score~~
-
+- ~~Explanation of model choice, including limitations and benefits~~
+- ~~Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)~~
+- ~~Description of how model was trained (or retrained, if they are using an existing model)~~
+- ~~Description and explanation of model’s confusion matrix, including final accuracy score~~
 ~~Additionally, the model obviously addresses the question or problem the team is solving.~~
+
+### Database
+
+~~Team members present a final project with a fully integrated database.~~
+- ~~Database stores static data for use during the project~~
+- ~~Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)~~
+- ~~Includes at least two tables (or collections, if using MongoDB)~~
+- ~~Includes at least one join using the database language (not including any joins in Pandas)~~
+- ~~Includes at least one connection string (using SQLAlchemy or PyMongo)~~
+~~Note: If you use a SQL database, you must provide your ERD with relationships.~~
 
 ### Dashboard
 
@@ -230,6 +255,7 @@ unfamiliar with the topic. It includes all of the following:
 - ~~Images from the initial analysis~~
 - ~~Data (images or report) from the machine learning task~~
 - ~~At least one interactive element~~
+~~Either the dashboard is published or the submission includes a screen capture video of it in action.~~
 
 --------------------------------
 
