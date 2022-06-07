@@ -2,7 +2,7 @@
 
 --------------------------------
 
-### Team members:
+### Team members
 
 - Janice Courtois
 - Alex Norgren
@@ -48,14 +48,14 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
 --------------------------------
 
-### Questions hoped to get answered:
+### Questions hoped to get answered
 
 - Are we able to predict potential stroke mortality rates based on a set of health-related or social-related factors?
 - Are there certain factors that are more important than others?
 
 --------------------------------
 
-### Description of data sources:
+### Description of data sources
 
 - **[Stroke Mortality Data Among US Adults (35+) by State/Territory and County (2018)](https://catalog.data.gov/dataset/stroke-mortality-data-among-us-adults-35-by-state-territory-and-county-2017-2019-d738a)**
   - Data.gov
@@ -67,7 +67,7 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
 --------------------------------
 
-### Description of the data exploration phase of the project:
+### Description of the data exploration phase of the project
 
 - Once our team determined that stroke mortality rates by counties within the United States was to be our target dataset, we brainstormed on possible health-related and social-related factors to research that may correlate (and possibly contribute) to higher stroke mortality rates within the United States. 
 - We did a lot of Google searches on random factors such as average days of sunlight per year, amount of drug use, number of fitness facilities per capita, number of restaurants per capita, and many more. 
@@ -75,7 +75,7 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
 --------------------------------
 
-### Description of the analysis phase of the project:
+### Description of the analysis phase of the project
 
 - PostgreSQL was used for data storage and merging, connected to AWS via pgAdmin 4.
 
