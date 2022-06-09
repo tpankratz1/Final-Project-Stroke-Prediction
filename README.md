@@ -89,7 +89,7 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
   ![Original attempt](Resources/SQL_Table_JOIN_in_pgAdmin.jpg)
 
-- SQLAlchemy psycopg2 was used as the connection string, [as shown in this file](https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/RFR_ML_DB_Connect.ipynb).
+- SQLAlchemy psycopg2 was used as the connection string, [as shown in this file](https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/RFR_ML_Stroke_Pred.ipynb).
 
 - The following ERD shows the relationships.
 
