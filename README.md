@@ -81,7 +81,7 @@ All four team members work in health care at Mayo Clinic, so there was a desire 
 
   ![Original attempt](Resources/New_table_after_JOIN_in_pgAdmin.jpg)
 
-- The database interfaced with the project, and contained at least two tables. [See Python file that shows the connection.](https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/RFR_ML_DB_Connect.ipynb)
+- The database interfaced with the project, and contained at least two tables. [See Python file that shows the connection.](https://github.com/Norgs87/Final-Project-Stroke-Prediction/blob/main/RFR_ML_Stroke_Pred.ipynb)
 
   ![Original attempt](Resources/Two_Tables_in_pgAdmin_before_JOIN.jpg)
 
