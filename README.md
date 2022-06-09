@@ -137,7 +137,7 @@ Python Pandas was used to clean the data and perform an exploratory analysis, an
 - The machine learning model that we decided to use was SciKitLearn's RandomForestRegressor. We went with this model because it worked well with the number of features we were using and the target that we identified was continuous rather than binary.
 - A GridSearchCV was run in an effort to optimize our model.  We updated the parameters to test, however this did not result in significant gains for the accuracy of our model so we reverted to original parameters, resulting in no major changes for segment three.  We did however convert repetitive code in to functions. 
 
-**Description of accuracy metric**
+**Description of accuracy metric and results analysis**
 
 - When using the RandomForestRegressor model the accuracy metric to use for validation is the RMSE, Root Mean Square Error.  The rule of thumb for RMSE is that a value between 0.2 to 0.5 is pretty accurately able to predict the data. Generally the lower the RMSE the better fit, however RMSE values lower than 0.2 would also suggest an overfit model.
 - The RMSE value for our three models is 12.13 for the full dataset, 13.12 for the health only features, and 13.21 for the economic / environmental features. We recognized that this value suggested that our model was not very accurate.  Discussion lead us to believe that the lack of accuracy of our model was very likely due to the unique features we chose to use in our data. Ultimately the data features we were working with are not likely to predict stroke mortality.
